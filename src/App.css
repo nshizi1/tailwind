@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Syne:regular,500,600,700,800);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Syne', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
