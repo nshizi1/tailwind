@@ -1,9 +1,9 @@
 
 function navbar() {
   return (
-    <header className="flex items-center justify-between p-4 text-pink-200 bg-blue-950">
+    <header className="fixed top-0 w-full z-10 flex items-center justify-between p-4 text-pink-100 bg-blue-950">
       <div className="logo">
-        <h1 className="text-4xl font-bold">Trave Ltd</h1>
+        <h1 className="text-4xl font-bold">Trave Tech</h1>
       </div>
       <div className="links">
         <ul className="flex gap-3 text-xl">
@@ -15,7 +15,7 @@ function navbar() {
         </ul>
       </div>
       <div className="btns">
-        <a href="#" className="text-xl"><button className="px-4 py-2 bg-purple-600 rounded-md hover:bg-purple-800 transition ease-in-out hover:text-pink-100">Log In</button></a>
+        <a href="#" className="text-xl"><button className="px-4 py-2 bg-pink-500 rounded-md hover:bg-pink-700 transition ease-in-out hover:text-pink-100">Log In</button></a>
       </div>
     </header>
   )
